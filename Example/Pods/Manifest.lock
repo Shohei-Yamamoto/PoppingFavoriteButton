@@ -1,0 +1,16 @@
+PODS:
+  - PoppingFavoriteButton (0.1.0)
+
+DEPENDENCIES:
+  - PoppingFavoriteButton (from `../`)
+
+EXTERNAL SOURCES:
+  PoppingFavoriteButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PoppingFavoriteButton: 0b5885bff13bdca92203f5cbb2beb8dc1fab482b
+
+PODFILE CHECKSUM: 0c9f6091ce44a36d94c918d0253604d823fd2e56
+
+COCOAPODS: 1.6.1

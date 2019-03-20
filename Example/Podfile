@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PoppingFavoriteButton_Example' do
+  pod 'PoppingFavoriteButton', :path => '../'
+
+  target 'PoppingFavoriteButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

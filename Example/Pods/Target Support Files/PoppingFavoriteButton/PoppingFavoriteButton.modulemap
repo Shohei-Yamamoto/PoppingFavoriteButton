@@ -1,0 +1,6 @@
+framework module PoppingFavoriteButton {
+  umbrella header "PoppingFavoriteButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

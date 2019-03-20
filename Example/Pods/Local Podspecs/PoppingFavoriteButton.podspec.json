@@ -1,0 +1,22 @@
+{
+  "name": "PoppingFavoriteButton",
+  "version": "0.1.0",
+  "summary": "A short description of PoppingFavoriteButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SignalYellow/PoppingFavoriteButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SignalYellow": "shoheiyamamotoroom@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/SignalYellow/PoppingFavoriteButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PoppingFavoriteButton/Classes/**/*"
+}
