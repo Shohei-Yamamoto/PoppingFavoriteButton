@@ -12,8 +12,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-This code is written in `Swift 4.2.1`
-target is `iOS 9.3+`
+This code is written in `Swift 4.1`
+target is `iOS 12.1+`
 
 ## Installation
 
