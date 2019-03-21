@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 open class PoppingFavoriteButton: UIButton {
     
@@ -198,7 +199,7 @@ struct DOFavoriteConstants {
         let circleMask = CAShapeLayer()
         circleMask.bounds = frame
         circleMask.position = centerPoint
-        circleMask.fillRule = CAShapeLayerFillRule.evenOdd
+        circleMask.fillRule = .evenOdd
         
         let maskPath = UIBezierPath(rect: frame)
         maskPath.addArc(withCenter: centerPoint, radius: 0.1, startAngle: CGFloat(0.0), endAngle: CGFloat(Double.pi * 2), clockwise: true)
@@ -286,8 +287,8 @@ struct DOFavoriteConstants {
                 return path
             }()
             
-            line.lineCap = CAShapeLayerLineCap.round
-            line.lineJoin =  CAShapeLayerLineJoin.round
+//            line.lineCap = CAShapeLayerLineCap.round
+//            line.lineJoin =  CAShapeLayerLineJoin.round
             line.strokeStart = 0.0
             line.strokeEnd = 0.0
             line.opacity = 0.0
