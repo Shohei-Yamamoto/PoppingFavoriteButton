@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/PoppingFavoriteButton.svg?style=flat)](https://cocoapods.org/pods/PoppingFavoriteButton)
 [![Platform](https://img.shields.io/cocoapods/p/PoppingFavoriteButton.svg?style=flat)](https://cocoapods.org/pods/PoppingFavoriteButton)
 
+![Image](https://github.com/Shohei-Yamamoto/PoppingFavoriteButton/blob/master/anim.gif)
 
 ## Example
 
