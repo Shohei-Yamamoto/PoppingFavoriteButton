@@ -4,12 +4,12 @@ open class PoppingFavoriteButton: UIButton {
     
     @IBInspectable open var colorOn: UIColor = .blue
     @IBInspectable open var colorOff: UIColor = .lightGray
-    @IBInspectable open var lineColor: UIColor = .black
+    @IBInspectable open var lineColor: UIColor = .yellow
     @IBInspectable open var circleColor: UIColor = .blue
     
     override open var isSelected: Bool {
         didSet {
-            self.tintColor = isSelected ? colorOn : colorOff
+            isSelected ? selected() : deselected()
         }
     }
     
@@ -27,32 +27,44 @@ open class PoppingFavoriteButton: UIButton {
     
     open override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
-        self.isSelected = !self.isSelected
         
-        if isSelected {
-
-
-            CATransaction.begin()
-
-            circleShape.add(circleTransform, forKey: "transform")
-            circleMask.add(circleMaskTransform, forKey: "transform")
-            imageView?.layer.add(imageTransform, forKey: imageTransform.keyPath)
-            
-            for i in 0 ..< 5 {
-                lines[i].add(lineStrokeStart, forKey: "strokeStart")
-                lines[i].add(lineStrokeEnd, forKey: "strokeEnd")
-                lines[i].add(lineOpacity, forKey: "opacity")
-            }
-            CATransaction.commit()
-
-        }
-        
-        print(isTouchInside)
-
         guard let touchedPoint = touches.first?.location(in: self), self.bounds.contains(touchedPoint) else {
-            print("outside")
             return
         }
+        
+        self.isSelected = !self.isSelected
+    }
+    
+    open override func draw(_ rect: CGRect) {
+        super.draw(rect)
+        tintColor = isSelected ? colorOn : colorOff
+    }
+    
+    open func selected() {
+        circleShape.removeAllAnimations()
+        circleMask.removeAllAnimations()
+        imageView?.layer.removeAllAnimations()
+        lines.forEach{$0.removeAllAnimations()}
+        
+        tintColor = colorOn
+        circleShape.fillColor = circleColor.cgColor
+        lines.forEach{$0.strokeColor = lineColor.cgColor}
+        
+        CATransaction.begin()
+        circleShape.add(circleTransform, forKey: circleMaskTransform.keyPath)
+        circleMask.add(circleMaskTransform, forKey: circleMaskTransform.keyPath)
+        imageView?.layer.add(imageTransform, forKey: imageTransform.keyPath)
+        
+        for i in 0 ..< 5 {
+            lines[i].add(lineStrokeStart, forKey: lineStrokeStart.keyPath)
+            lines[i].add(lineStrokeEnd, forKey: lineStrokeEnd.keyPath)
+            lines[i].add(lineOpacity, forKey: lineOpacity.keyPath)
+        }
+        CATransaction.commit()
+    }
+    
+    open func deselected() {
+        tintColor = colorOff
     }
     
     // MARK: Layers
@@ -80,7 +92,7 @@ open class PoppingFavoriteButton: UIButton {
         let lineFrame = CGRect(x: imageFrame.origin.x - imageFrame.width / 4, y: imageFrame.origin.y - imageFrame.height / 4 , width: imageFrame.width * 1.5, height: imageFrame.height * 1.5)
         
         // MARK: Circle Layer
-        circleShape = DOFavoriteConstants.getCircleShape(frame: imageFrame, centerPoint: imageCenterPoint, color: .yellow)
+        circleShape = DOFavoriteConstants.getCircleShape(frame: imageFrame, centerPoint: imageCenterPoint)
         self.layer.addSublayer(circleShape)
     
         circleMask = DOFavoriteConstants.getCircleMask(frame: imageFrame, centerPoint: imageCenterPoint)

@@ -54,12 +54,11 @@ struct DOFavoriteConstants {
         NSValue(caTransform3D: CATransform3DMakeScale(imageFrame.width * 5.0,   imageFrame.height * 5.0,   1.0))    // 10/10
     ]}
     
-    static func getCircleShape(frame: CGRect, centerPoint: CGPoint, color: UIColor) -> CAShapeLayer {
+    static func getCircleShape(frame: CGRect, centerPoint: CGPoint) -> CAShapeLayer {
         let circleShape = CAShapeLayer()
         circleShape.bounds = frame
         circleShape.position = centerPoint
         circleShape.path = UIBezierPath(ovalIn: frame).cgPath
-        circleShape.fillColor = color.cgColor
         circleShape.transform = CATransform3DMakeScale(0.0, 0.0, 1.0)
         
         return circleShape
@@ -148,7 +147,6 @@ struct DOFavoriteConstants {
             line.position = centerPoint
             line.masksToBounds = true
             line.actions = ["strokeStart": NSNull(), "strokeEnd": NSNull()]
-            line.strokeColor = UIColor.black.cgColor
             line.lineWidth = 1.25
             line.miterLimit = 1.25
             line.path = {
