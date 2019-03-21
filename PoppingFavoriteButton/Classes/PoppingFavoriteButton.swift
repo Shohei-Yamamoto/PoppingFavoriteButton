@@ -199,7 +199,7 @@ struct DOFavoriteConstants {
         let circleMask = CAShapeLayer()
         circleMask.bounds = frame
         circleMask.position = centerPoint
-        circleMask.fillRule = .evenOdd
+        circleMask.fillRule = kCAFillRuleEvenOdd
         
         let maskPath = UIBezierPath(rect: frame)
         maskPath.addArc(withCenter: centerPoint, radius: 0.1, startAngle: CGFloat(0.0), endAngle: CGFloat(Double.pi * 2), clockwise: true)
