@@ -7,18 +7,12 @@
 //
 
 import UIKit
+import PoppingFavoriteButton
+
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func tapHeart(_ sender: PoppingFavoriteButton) {
+        print("pop!")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 

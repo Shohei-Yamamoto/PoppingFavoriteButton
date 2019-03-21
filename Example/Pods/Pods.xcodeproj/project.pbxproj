@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		168A6306863C0DFC29A114DE37456640 /* PoppingFavoriteButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF642F9487227E24EBCE10D1A35B5DC /* PoppingFavoriteButton-dummy.m */; };
 		1F3A400AE50728AC7056A404EBEE1149 /* Pods-PoppingFavoriteButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74144D5B33A78F7F8325F4C4F197F506 /* Pods-PoppingFavoriteButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D00D9013E18AA0580F80A63A054BB14 /* Pods-PoppingFavoriteButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A7F0C64B5C29B04BAE59C5DACE97A1 /* Pods-PoppingFavoriteButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59B337C33DCED60A622E7ED76D031CC6 /* PoppingFavoriteButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E4EC75BBFC6E966A3C4F0C32FE8DF /* PoppingFavoriteButton-dummy.m */; };
 		66875D166E69085C5FE69B90E3B3FFCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A23087269B2BBF9B6CDD23A28833455C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067F120568F93D4BE514FB5FA923D1EA /* ReplaceMe.swift */; };
 		A810F29350521BBA1D3687B7721F0807 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		B415B6A89D47FF6E6E7C5D6609410B35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		D927AAA0541DF4FDDB8F0F30878DAF10 /* PoppingFavoriteButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B677D95ACDD27EE17A680FE1E6F563 /* PoppingFavoriteButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D927AAA0541DF4FDDB8F0F30878DAF10 /* PoppingFavoriteButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B93F9ED670C219CFE142A2DD30FFB90F /* PoppingFavoriteButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E172FD73E17D68761C45721235ABC5F2 /* PoppingFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7980B21CAE14C7C6BD47F41BA33DD2 /* PoppingFavoriteButton.swift */; };
 		E5F15DB7C3A75EB38359B3C9E6E53260 /* Pods-PoppingFavoriteButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F84C9D366EC74FF0B24E50373383 /* Pods-PoppingFavoriteButton_Tests-dummy.m */; };
 		FE5B386AAF3EEA1807E587E2123F0E2A /* Pods-PoppingFavoriteButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F344950C07E60B583DD3A47CE2BFC183 /* Pods-PoppingFavoriteButton_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -38,34 +38,34 @@
 
 /* Begin PBXFileReference section */
 		04DA0D2EE1175FBE5ACB2BEEA661A10C /* Pods-PoppingFavoriteButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoppingFavoriteButton_Example.modulemap"; sourceTree = "<group>"; };
-		067F120568F93D4BE514FB5FA923D1EA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PoppingFavoriteButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		07F8A78561DF35B5E025177A1BAF91B1 /* Pods-PoppingFavoriteButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoppingFavoriteButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0884C5EC854644B76A5954144EF8A5B0 /* Pods-PoppingFavoriteButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoppingFavoriteButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E345DD64724AFCF6A57FB07EA30672B /* PoppingFavoriteButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PoppingFavoriteButton.xcconfig; sourceTree = "<group>"; };
 		2D0D48515710FA656D34CDA04258BCDE /* Pods-PoppingFavoriteButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoppingFavoriteButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D6E4EC75BBFC6E966A3C4F0C32FE8DF /* PoppingFavoriteButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoppingFavoriteButton-dummy.m"; sourceTree = "<group>"; };
 		3A1D9D5084ED3503FB95473CDA2AAA52 /* Pods-PoppingFavoriteButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoppingFavoriteButton_Tests-Info.plist"; sourceTree = "<group>"; };
-		4AB3DAF0127D9199BED5A10CD8D83922 /* PoppingFavoriteButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoppingFavoriteButton-prefix.pch"; sourceTree = "<group>"; };
-		6513980A11D7A7F1F013D2BB988F28CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		74144D5B33A78F7F8325F4C4F197F506 /* Pods-PoppingFavoriteButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoppingFavoriteButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7516F84C9D366EC74FF0B24E50373383 /* Pods-PoppingFavoriteButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoppingFavoriteButton_Tests-dummy.m"; sourceTree = "<group>"; };
-		7704F9CC249F5040DBB34007246C7373 /* PoppingFavoriteButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PoppingFavoriteButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7B25E198D3680EAABE7EB843481C2E84 /* Pods-PoppingFavoriteButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoppingFavoriteButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		836879C317AAD20568815F6C6C6CB296 /* PoppingFavoriteButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PoppingFavoriteButton-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F156CD8E243DFB6C18FFA46DE9BD375 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A0B677D95ACDD27EE17A680FE1E6F563 /* PoppingFavoriteButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoppingFavoriteButton-umbrella.h"; sourceTree = "<group>"; };
+		93C78FD6499B748B279E20B3C560691F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F1DA7382E305D8197194AC3EE69F51B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A2BD2EE2D4B04EB14DB7B1F9F767C7E4 /* PoppingFavoriteButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PoppingFavoriteButton-Info.plist"; sourceTree = "<group>"; };
 		A53ADFC435CA436410B76BF21D7B28E3 /* Pods-PoppingFavoriteButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PoppingFavoriteButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A73F5FF1893840891EDC23B74304027E /* PoppingFavoriteButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PoppingFavoriteButton.modulemap; sourceTree = "<group>"; };
 		A7A7F0C64B5C29B04BAE59C5DACE97A1 /* Pods-PoppingFavoriteButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PoppingFavoriteButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		AE1BC78F9B81B0940AC7B7A3A054B8F9 /* PoppingFavoriteButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PoppingFavoriteButton.xcconfig; sourceTree = "<group>"; };
-		AF20A36146F98A2E3055FA028A69A06A /* PoppingFavoriteButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PoppingFavoriteButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2443F7910E0AE4504D84B84F4035291 /* Pods_PoppingFavoriteButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoppingFavoriteButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF8D7CED7366BD850DED5FF96E923D3 /* PoppingFavoriteButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoppingFavoriteButton-prefix.pch"; sourceTree = "<group>"; };
+		AF20A36146F98A2E3055FA028A69A06A /* PoppingFavoriteButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PoppingFavoriteButton.framework; path = PoppingFavoriteButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2443F7910E0AE4504D84B84F4035291 /* Pods_PoppingFavoriteButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PoppingFavoriteButton_Tests.framework; path = "Pods-PoppingFavoriteButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58556EE0625A941EDC1C72075753285 /* Pods-PoppingFavoriteButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoppingFavoriteButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BDF642F9487227E24EBCE10D1A35B5DC /* PoppingFavoriteButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoppingFavoriteButton-dummy.m"; sourceTree = "<group>"; };
-		C143BF87703854773191F70C665EBABF /* Pods_PoppingFavoriteButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoppingFavoriteButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93F9ED670C219CFE142A2DD30FFB90F /* PoppingFavoriteButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoppingFavoriteButton-umbrella.h"; sourceTree = "<group>"; };
+		C143BF87703854773191F70C665EBABF /* Pods_PoppingFavoriteButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PoppingFavoriteButton_Example.framework; path = "Pods-PoppingFavoriteButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBAE2CD96FF30F0348E7411B71C7076E /* PoppingFavoriteButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PoppingFavoriteButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CBF1BDC69C3CA95DD8421318D036ADB7 /* Pods-PoppingFavoriteButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PoppingFavoriteButton_Tests.modulemap"; sourceTree = "<group>"; };
 		E4245C7E93166FECF8175FBD540B1A3D /* Pods-PoppingFavoriteButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoppingFavoriteButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ED5D89B2860A576033390985B3CC7461 /* Pods-PoppingFavoriteButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PoppingFavoriteButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EF48B296D6A76FC443A696D15DE7EB7E /* PoppingFavoriteButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PoppingFavoriteButton.modulemap; sourceTree = "<group>"; };
+		EE7980B21CAE14C7C6BD47F41BA33DD2 /* PoppingFavoriteButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PoppingFavoriteButton.swift; path = PoppingFavoriteButton/Classes/PoppingFavoriteButton.swift; sourceTree = "<group>"; };
 		F246D8B8BF750EC7C4CA057B2EFB06F2 /* Pods-PoppingFavoriteButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PoppingFavoriteButton_Example-Info.plist"; sourceTree = "<group>"; };
 		F344950C07E60B583DD3A47CE2BFC183 /* Pods-PoppingFavoriteButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PoppingFavoriteButton_Example-dummy.m"; sourceTree = "<group>"; };
 		F8E31A889063E15F6E23FA883552F903 /* Pods-PoppingFavoriteButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PoppingFavoriteButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +99,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F9234A65C84F41650507AA61E2BD968 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A73F5FF1893840891EDC23B74304027E /* PoppingFavoriteButton.modulemap */,
+				0E345DD64724AFCF6A57FB07EA30672B /* PoppingFavoriteButton.xcconfig */,
+				2D6E4EC75BBFC6E966A3C4F0C32FE8DF /* PoppingFavoriteButton-dummy.m */,
+				A2BD2EE2D4B04EB14DB7B1F9F767C7E4 /* PoppingFavoriteButton-Info.plist */,
+				ACF8D7CED7366BD850DED5FF96E923D3 /* PoppingFavoriteButton-prefix.pch */,
+				B93F9ED670C219CFE142A2DD30FFB90F /* PoppingFavoriteButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PoppingFavoriteButton";
+			sourceTree = "<group>";
+		};
 		265C52215CF85EAD4A99E0A303EAFFE9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +132,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		679D8520FCAEC67613E03571C8FF74D3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				93C78FD6499B748B279E20B3C560691F /* LICENSE */,
+				CBAE2CD96FF30F0348E7411B71C7076E /* PoppingFavoriteButton.podspec */,
+				9F1DA7382E305D8197194AC3EE69F51B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7307C1C03AF60D72A2E5C47DB7C9EF2B /* Pods-PoppingFavoriteButton_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,17 +159,6 @@
 			path = "Target Support Files/Pods-PoppingFavoriteButton_Example";
 			sourceTree = "<group>";
 		};
-		94A6BC7AAD5A677F82382793512E13E9 /* PoppingFavoriteButton */ = {
-			isa = PBXGroup;
-			children = (
-				067F120568F93D4BE514FB5FA923D1EA /* ReplaceMe.swift */,
-				D1F936332D2684845958E4000D74A3E6 /* Pod */,
-				CE6010700CE089221C5C38782241506E /* Support Files */,
-			);
-			name = PoppingFavoriteButton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +170,7 @@
 		9C37F4ED2C311B61937A7A183A74F71C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				94A6BC7AAD5A677F82382793512E13E9 /* PoppingFavoriteButton */,
+				D26CAF645543F83125541D239BACA249 /* PoppingFavoriteButton */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -178,20 +191,6 @@
 			path = "Target Support Files/Pods-PoppingFavoriteButton_Tests";
 			sourceTree = "<group>";
 		};
-		CE6010700CE089221C5C38782241506E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EF48B296D6A76FC443A696D15DE7EB7E /* PoppingFavoriteButton.modulemap */,
-				AE1BC78F9B81B0940AC7B7A3A054B8F9 /* PoppingFavoriteButton.xcconfig */,
-				BDF642F9487227E24EBCE10D1A35B5DC /* PoppingFavoriteButton-dummy.m */,
-				836879C317AAD20568815F6C6C6CB296 /* PoppingFavoriteButton-Info.plist */,
-				4AB3DAF0127D9199BED5A10CD8D83922 /* PoppingFavoriteButton-prefix.pch */,
-				A0B677D95ACDD27EE17A680FE1E6F563 /* PoppingFavoriteButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PoppingFavoriteButton";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -203,22 +202,23 @@
 			);
 			sourceTree = "<group>";
 		};
-		D1F936332D2684845958E4000D74A3E6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6513980A11D7A7F1F013D2BB988F28CE /* LICENSE */,
-				7704F9CC249F5040DBB34007246C7373 /* PoppingFavoriteButton.podspec */,
-				9F156CD8E243DFB6C18FFA46DE9BD375 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D26CAF645543F83125541D239BACA249 /* PoppingFavoriteButton */ = {
+			isa = PBXGroup;
+			children = (
+				EE7980B21CAE14C7C6BD47F41BA33DD2 /* PoppingFavoriteButton.swift */,
+				679D8520FCAEC67613E03571C8FF74D3 /* Pod */,
+				0F9234A65C84F41650507AA61E2BD968 /* Support Files */,
+			);
+			name = PoppingFavoriteButton;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +294,7 @@
 			buildConfigurationList = C567AC82DE24E1D23D2F221EFCE8609E /* Build configuration list for PBXNativeTarget "PoppingFavoriteButton" */;
 			buildPhases = (
 				DBDACCF5E8E0B7C2E2919BEA925A3EA1 /* Headers */,
-				A1D31F12942DC59E19A55AB1F62E88B3 /* Sources */,
+				BE084ABDB7FD248D981D4FFF482A731B /* Sources */,
 				642BB9A9685F19C6EFFE35E34DDA7F70 /* Frameworks */,
 				20A95826E285FD71ED355274029C6891 /* Resources */,
 			);
@@ -315,11 +315,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					8A0C1391F7764959DB2C2E1BDFD1E242 = {
-						LastSwiftMigration = 1010;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -365,20 +360,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1D31F12942DC59E19A55AB1F62E88B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				168A6306863C0DFC29A114DE37456640 /* PoppingFavoriteButton-dummy.m in Sources */,
-				A23087269B2BBF9B6CDD23A28833455C /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AF3CC8AF8185716475ADFB24EA27D4B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FE5B386AAF3EEA1807E587E2123F0E2A /* Pods-PoppingFavoriteButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE084ABDB7FD248D981D4FFF482A731B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B337C33DCED60A622E7ED76D031CC6 /* PoppingFavoriteButton-dummy.m in Sources */,
+				E172FD73E17D68761C45721235ABC5F2 /* PoppingFavoriteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,9 +403,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13892BCB100DE96388E3D4F732D72C50 /* Debug */ = {
+		07278852AAAAE8778C5F59F508FA759A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE1BC78F9B81B0940AC7B7A3A054B8F9 /* PoppingFavoriteButton.xcconfig */;
+			baseConfigurationReference = 0E345DD64724AFCF6A57FB07EA30672B /* PoppingFavoriteButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -439,9 +434,9 @@
 			};
 			name = Debug;
 		};
-		8BB5EBBD878BB041F98E413742F9B521 /* Release */ = {
+		A8C6FD8211CFE572C90FA112736C0F85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE1BC78F9B81B0940AC7B7A3A054B8F9 /* PoppingFavoriteButton.xcconfig */;
+			baseConfigurationReference = 0E345DD64724AFCF6A57FB07EA30672B /* PoppingFavoriteButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -722,7 +717,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -761,8 +757,8 @@
 		C567AC82DE24E1D23D2F221EFCE8609E /* Build configuration list for PBXNativeTarget "PoppingFavoriteButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13892BCB100DE96388E3D4F732D72C50 /* Debug */,
-				8BB5EBBD878BB041F98E413742F9B521 /* Release */,
+				07278852AAAAE8778C5F59F508FA759A /* Debug */,
+				A8C6FD8211CFE572C90FA112736C0F85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
