@@ -1,6 +1,5 @@
 # PoppingFavoriteButton
 
-[![CI Status](https://img.shields.io/travis/Shohei-Yamamoto/PoppingFavoriteButton.svg?style=flat)](https://travis-ci.org/Shohei-Yamamoto/PoppingFavoriteButton)
 [![Version](https://img.shields.io/cocoapods/v/PoppingFavoriteButton.svg?style=flat)](https://cocoapods.org/pods/PoppingFavoriteButton)
 [![License](https://img.shields.io/cocoapods/l/PoppingFavoriteButton.svg?style=flat)](https://cocoapods.org/pods/PoppingFavoriteButton)
 [![Platform](https://img.shields.io/cocoapods/p/PoppingFavoriteButton.svg?style=flat)](https://cocoapods.org/pods/PoppingFavoriteButton)
